@@ -7,3 +7,8 @@
 4. add name and email for remote repository $ git config --global(local) user.name "rodionovmax"
                                             $ git config --global(local) user.email rodionovmax90test@gmail.com"
 5. check status of changes $ git status
+6. add remote repo $ git remote add origin https://github.com/rodionovmax/my_python_projects
+7. push local repo to remote $ git push -u origin master
+8. update remote repo $ git remote set-url origin https://github.com/rodionovmax/my_python_projects.git
+9. pull from remote repo $ git pull origin master
+10. if pull doesn't happen; fatal: unrelated_histories error put special flag $ git pull origin master --allow-unrelated-histories
