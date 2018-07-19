@@ -26,3 +26,19 @@ Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\open
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 8620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1532031960512	geckodriver	INFO	geckodriver 0.21.0
+1532031960744	geckodriver	INFO	Listening on 127.0.0.1:58652
+1532031961776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\UHIPUser\\AppData\\Local\\Temp\\rust_mozprofile.KG04mNAogsxi"
+1532031975343	Marionette	INFO	Listening on port 58657
+1532031976315	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\UHIPUser\AppData\Local\openvr\openvrpaths.vrpath
