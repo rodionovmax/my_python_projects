@@ -12,3 +12,12 @@
 8. update remote repo $ git remote set-url origin https://github.com/rodionovmax/my_python_projects.git
 9. pull from remote repo $ git pull origin master
 10. if pull doesn't happen; fatal: unrelated_histories error put special flag $ git pull origin master --allow-unrelated-histories
+Branches
+11_0. Check what are the branches in the repo $ git branch
+11. Create a new branch "hotfix" $ git branch hotfix
+12. Switch to branch "hotfix" $ git checkout hotfix
+13. Create new branch "hotfix" and switch to it in one line $ git checkout -b hotfix
+14. In order to merge changes into master branch we need to switch to master and perform merge
+$ git checkout master
+$ git merge hotfix
+15. Delete branch hotfix $ git branch -d hotfix
