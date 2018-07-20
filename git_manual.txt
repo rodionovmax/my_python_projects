@@ -4,8 +4,8 @@
 1. create a new branch $ git init
 2. add all files to local branch $ git add .
 3. commit $ git commit -m "First commit"
-4. add name and email for remote repository $ git config --global(local) user.name "rodionovmax"
-                                            $ git config --global(local) user.email rodionovmax90test@gmail.com"
+4. add name and email for remote repository $ git config --global user.name "rodionovmax"
+                                            $ git config --global user.email rodionovmax90test@gmail.com"
 5. check status of changes $ git status
 6_0. Check remote repo URL $ git remote -v
 6. add remote repo $ git remote add origin https://github.com/rodionovmax/my_python_projects
