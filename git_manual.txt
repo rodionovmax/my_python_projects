@@ -22,3 +22,6 @@ Branches
 $ git checkout master
 $ git merge hotfix
 15. Delete branch hotfix $ git branch -d hotfix
+16. If git doesn't let to pull changes from remote to local (in case if I don't need anything in local repo)
+$ git reset --hard # it deletes everything in local repository
+$ git pull origin master
