@@ -1,0 +1,8 @@
+1. How to run scripts from bash on mac $ python3 /Users/rodionovmax/Documents/repo/first.py
+2. Selenium stores here /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (3.13.0)
+3. Run script in ipython $ ipython3
+                         run /Users/rodionovmax/Documents/repo/first.py
+4. How to check selenium version installed $ python -c "import selenium; print(selenium.__version__)"
+5. After you made changes and pushed it to github, you need to pull request. Fetch changes with current branch
+and then confirm changes. After that you can pull it to another machine by doing
+$ git pull origin from_mac (from_mac - name of remote branch)
