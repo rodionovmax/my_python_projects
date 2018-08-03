@@ -1,4 +1,4 @@
-
+import time
 
 class GroupHelper:
 
@@ -31,3 +31,12 @@ class GroupHelper:
     def return_to_group_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("group page").click()
+
+    def delete_first_group(self):
+        wd = self.app.wd
+        self.open_groups_page()
+        wd.find_element_by_xpath("/html/body/div/div[4]/form/span[1]/input").click()
+        wd.find_element_by_xpath("/html/body/div/div[4]/form/input[5]").click()
+        time.sleep(1)
+        wd.find_element_by_link_text("home").click()
+        time.sleep(1)

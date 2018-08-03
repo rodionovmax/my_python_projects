@@ -30,11 +30,8 @@ class ContactHelper:
         wd.find_element_by_name("email").click()
         wd.find_element_by_name("email").clear()
         wd.find_element_by_name("email").send_keys(contact.email)
-        wd.find_element_by_name("notes").click()
-        wd.find_element_by_name("notes").clear()
-        wd.find_element_by_name("notes").send_keys(contact.notes)
         #submit form
-        wd.find_element_by_xpath("/html/body/div/div[4]/form/input[21]").click()
+        wd.find_element_by_name("submit").click()
         self.return_to_contact_page()
 
     def return_to_contact_page(self):
