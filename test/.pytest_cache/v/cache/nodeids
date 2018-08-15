@@ -1,4 +1,3 @@
 [
-  "test_contact_add_new.py::test_contact_add_new",
-  "test_contact_add_new.py::test_contact_add_empty"
+  "test_contact_del.py::test_delete_first_contact"
 ]

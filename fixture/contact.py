@@ -37,3 +37,10 @@ class ContactHelper:
     def return_to_contact_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("home").click()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+        wd.find_element_by_xpath("//input[@value='Delete']")
+        #wd.find_element_by_css_selector("input[type='button'][value='Delete']").click()
+        self.return_to_contact_page()

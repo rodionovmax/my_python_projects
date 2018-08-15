@@ -13,7 +13,7 @@ class GroupHelper:
         wd = self.app.wd
         # init group creation
         self.open_groups_page()
-        wd.find_element_by_xpath("//div[@id='content']/form/input[4]").click()
+        wd.find_element_by_name("new").click()
         # fill out the form
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
@@ -24,9 +24,12 @@ class GroupHelper:
         wd.find_element_by_name("group_footer").click()
         wd.find_element_by_name("group_footer").clear()
         wd.find_element_by_name("group_footer").send_keys(group.footer)
+        time.sleep(1)
         # submit form
         wd.find_element_by_name("submit").click()
+        #time.sleep(1)
         self.return_to_group_page()
+        #time.sleep(1)
 
     def return_to_group_page(self):
         wd = self.app.wd
@@ -35,8 +38,6 @@ class GroupHelper:
     def delete_first_group(self):
         wd = self.app.wd
         self.open_groups_page()
-        wd.find_element_by_xpath("/html/body/div/div[4]/form/span[1]/input").click()
-        wd.find_element_by_xpath("/html/body/div/div[4]/form/input[5]").click()
-        time.sleep(1)
-        wd.find_element_by_link_text("home").click()
-        time.sleep(1)
+        wd.find_element_by_name("selected[]").click()
+        wd.find_element_by_name("delete").click()
+        self.return_to_group_page()
